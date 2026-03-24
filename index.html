@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー / Privacy Policy - 手取りナビ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(135deg, #002B5B 0%, #0077b6 100%);
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 6px; }
+    header p { font-size: 0.95rem; opacity: 0.85; }
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px auto;
+      max-width: 800px;
+      padding: 0 24px;
+    }
+    .lang-btn {
+      padding: 8px 24px;
+      border-radius: 20px;
+      border: 2px solid #0077b6;
+      background: #fff;
+      color: #0077b6;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: #0077b6;
+      color: #fff;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+    .section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    .section h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #002B5B;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e8f0fe;
+    }
+    .section p { font-size: 0.95rem; color: #333; margin-bottom: 10px; }
+    .section ul { padding-left: 20px; margin-bottom: 10px; }
+    .section ul li { font-size: 0.95rem; color: #333; margin-bottom: 6px; }
+    .updated {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      margin: 16px 0 24px;
+    }
+    .contact-box {
+      background: #e8f0fe;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.9rem;
+      color: #002B5B;
+    }
+    .contact-box a { color: #0077b6; text-decoration: none; }
+    [lang-section] { display: none; }
+    [lang-section].visible { display: block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>手取りナビ</h1>
+  <p>プライバシーポリシー / Privacy Policy</p>
+</header>
+
+<div class="lang-toggle">
+  <button class="lang-btn active" onclick="switchLang('ja')">日本語</button>
+  <button class="lang-btn" onclick="switchLang('en')">English</button>
+</div>
+
+<!-- 日本語版 -->
+<div lang-section="ja" class="visible">
+  <div class="container">
+    <p class="updated">最終更新日：2026年3月24日</p>
+
+    <div class="section">
+      <h2>1. はじめに</h2>
+      <p>手取りナビ（以下「本アプリ」）は、ユーザーの手取り収入・税金・社会保険料の計算を支援するアプリケーションです。本プライバシーポリシーは、本アプリが収集・利用・保護する情報について説明します。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 収集する情報</h2>
+      <p>本アプリは以下の情報を収集・利用します。</p>
+      <ul>
+        <li><strong>ユーザーが入力した情報：</strong>年収、職業・立場、家族構成（配偶者・子供の有無）、各種控除情報（iDeCo、ふるさと納税、生命保険料等）、居住都道府県</li>
+        <li><strong>アカウント情報：</strong>メールアドレス（認証に使用）、匿名ユーザーID（未ログイン時）</li>
+        <li><strong>端末情報：</strong>プッシュ通知トークン（通知機能を有効にした場合）</li>
+        <li><strong>利用状況：</strong>アプリの利用履歴（機能改善のため）</li>
+      </ul>
+      <p>本アプリは、氏名・住所・電話番号・マイナンバー等の個人を特定できる情報は収集しません。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 情報の利用目的</h2>
+      <ul>
+        <li>税金・社会保険料・手取り収入の計算および表示</li>
+        <li>ユーザーのプロフィールに基づいたニュース・情報の提供</li>
+        <li>プッシュ通知（税務カレンダーのリマインダー等）の送信</li>
+        <li>有料プランの管理（RevenueCat経由）</li>
+        <li>アプリの改善・不具合の修正</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. 第三者サービスへの情報提供</h2>
+      <p>本アプリは以下の第三者サービスを利用しており、各サービスのプライバシーポリシーに従い情報が処理されます。</p>
+      <ul>
+        <li><strong>Supabase：</strong>ユーザーデータの保存・認証（<a href="https://supabase.com/privacy" target="_blank">プライバシーポリシー</a>）</li>
+        <li><strong>RevenueCat：</strong>サブスクリプション・課金管理（<a href="https://www.revenuecat.com/privacy" target="_blank">プライバシーポリシー</a>）</li>
+        <li><strong>Expo / EAS：</strong>プッシュ通知の配信（<a href="https://expo.dev/privacy" target="_blank">プライバシーポリシー</a>）</li>
+      </ul>
+      <p>法令に基づく場合を除き、ユーザーの同意なく第三者に個人情報を提供することはありません。</p>
+    </div>
+
+    <div class="section">
+      <h2>5. データの保存と保護</h2>
+      <ul>
+        <li>入力データは端末内（AsyncStorage）およびSupabaseのサーバー（日本国外のデータセンター）に保存されます</li>
+        <li>通信はすべてHTTPS（TLS暗号化）で行われます</li>
+        <li>Supabaseのデータベースはアクセス制御（Row Level Security）により保護されています</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. ユーザーの権利</h2>
+      <p>ユーザーはいつでも以下の権利を行使できます。</p>
+      <ul>
+        <li>アプリ内の設定からプロフィールデータを削除する</li>
+        <li>アカウントの削除を申請する（下記お問い合わせ先まで）</li>
+        <li>プッシュ通知の受信を端末の設定からオフにする</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. 子供のプライバシー</h2>
+      <p>本アプリは13歳未満の方を対象としていません。13歳未満の方から意図せず情報を収集した場合は、速やかに削除します。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. プライバシーポリシーの変更</h2>
+      <p>本ポリシーは必要に応じて更新されることがあります。重要な変更がある場合はアプリ内でお知らせします。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. お問い合わせ</h2>
+      <div class="contact-box">
+        プライバシーに関するご質問・削除申請は下記までご連絡ください。<br><br>
+        <strong>アプリ名：</strong>手取りナビ<br>
+        <strong>メール：</strong><a href="mailto:support@tadorinavi.app">support@tadorinavi.app</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- English Version -->
+<div lang-section="en">
+  <div class="container">
+    <p class="updated">Last updated: March 24, 2026</p>
+
+    <div class="section">
+      <h2>1. Introduction</h2>
+      <p>Tadorinavi (the "App") is an application that helps users calculate their take-home pay, taxes, and social insurance premiums. This Privacy Policy explains what information we collect, how we use it, and how we protect it.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Information We Collect</h2>
+      <p>The App collects and uses the following information:</p>
+      <ul>
+        <li><strong>User-entered data:</strong> Annual income, employment type, family structure (spouse/children), deduction information (iDeCo, hometown tax, life insurance premiums, etc.), and prefecture of residence</li>
+        <li><strong>Account information:</strong> Email address (for authentication), anonymous user ID (when not logged in)</li>
+        <li><strong>Device information:</strong> Push notification token (when notifications are enabled)</li>
+        <li><strong>Usage data:</strong> App usage history (for improvement purposes)</li>
+      </ul>
+      <p>The App does not collect personally identifiable information such as full name, address, phone number, or national identification numbers.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. How We Use Information</h2>
+      <ul>
+        <li>Calculating and displaying taxes, social insurance premiums, and take-home pay</li>
+        <li>Providing news and information based on user profile</li>
+        <li>Sending push notifications (tax calendar reminders, etc.)</li>
+        <li>Managing paid subscriptions (via RevenueCat)</li>
+        <li>Improving the App and fixing bugs</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Third-Party Services</h2>
+      <p>The App uses the following third-party services, which process information according to their own privacy policies:</p>
+      <ul>
+        <li><strong>Supabase:</strong> User data storage and authentication (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
+        <li><strong>RevenueCat:</strong> Subscription and billing management (<a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a>)</li>
+        <li><strong>Expo / EAS:</strong> Push notification delivery (<a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a>)</li>
+      </ul>
+      <p>We do not share personal information with third parties without user consent, except as required by law.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Data Storage and Security</h2>
+      <ul>
+        <li>Input data is stored on-device (AsyncStorage) and on Supabase servers (data centers outside Japan)</li>
+        <li>All communications use HTTPS (TLS encryption)</li>
+        <li>Supabase databases are protected by Row Level Security access controls</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Your Rights</h2>
+      <p>Users may exercise the following rights at any time:</p>
+      <ul>
+        <li>Delete profile data from within the App settings</li>
+        <li>Request account deletion (contact us at the address below)</li>
+        <li>Disable push notifications from device settings</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>7. Children's Privacy</h2>
+      <p>The App is not intended for children under 13. If we inadvertently collect information from a child under 13, we will promptly delete it.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Changes to This Policy</h2>
+      <p>This policy may be updated as needed. We will notify users of significant changes within the App.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact Us</h2>
+      <div class="contact-box">
+        For privacy inquiries or account deletion requests, please contact us:<br><br>
+        <strong>App name:</strong> Tadorinavi (手取りナビ)<br>
+        <strong>Email:</strong> <a href="mailto:support@tadorinavi.app">support@tadorinavi.app</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('[lang-section]').forEach(el => {
+      el.classList.toggle('visible', el.getAttribute('lang-section') === lang);
+    });
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.textContent.trim() === (lang === 'ja' ? '日本語' : 'English'));
+    });
+  }
+</script>
+
+</body>
+</html>
